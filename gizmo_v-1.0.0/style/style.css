@@ -1,0 +1,45 @@
+
+body{
+	background-color : #2F4F4F;
+}
+
+div.chatting{
+	background-color : #09e8d7;
+	width:25%;	
+	height:60%;
+	margin-top: 230px;
+	float:right;
+	overflow-y:auto;
+	word-wrap:break-word
+}
+
+img{
+	height : 675px;
+	width : 1300px;
+	margin-left : -8px;
+	margin-top : -8px;
+	margin-right : -10px;
+}
+
+div.message_box .msgtext{
+	margin-top: 1px;
+	margin-left: 970px;
+	height: 30px;
+	width: 250px;
+}
+
+
+div.message_box .button{
+	height: 30px;
+	width: 65px;
+
+}
+
+.fa {
+  color: white;
+  background: #2F4F4F;
+  display: flex !important;
+  margin-left: 960px;
+  margin-top: -485px;
+
+}

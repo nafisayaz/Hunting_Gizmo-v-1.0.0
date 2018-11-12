@@ -1,0 +1,45 @@
+
+<html>
+
+	<title> Code and Chat  </title>
+
+    <head>
+		<link type="text/css" rel = "stylesheet" href= "style.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <!--
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        -->
+
+		<script src= "index.js" ></script>
+    </head>
+
+    <body>
+
+        
+
+        <div id="main" style="margin-top:0%;">
+            <p id="codeId" style="margin-left:30%;margin-top=-1%"></p>
+
+		<div id="chat" class = "chatting">
+        </div>
+			 <div id="message_box" class="message_box" >
+                     <ul id="messages" class="messages"></ul>
+
+            		  <form id="msgform" class="msgform">
+               		      <input id="m" autocomplete=on autofocus size ="30" class = "msgtext" ></input>
+						  <button type="submit" id="buttonf" class="button">send</button>
+          			  </form>
+			 </div>
+
+
+        <!-- THIS VIDEO CHATTING   -->
+
+        <div>
+            <i class="fa fa-microphone" style="font-size:36px; color:white; "></i>
+        </div>
+        <script src="index_old_speech_recognition.js"></script>
+    </body>
+</html>
